@@ -72,7 +72,7 @@ class ApiResource(dict):
 
   def update(self, *args, **kwargs):
     """Overwritten method of dictionary."""
-    for k, v in dict(*args, **kwargs).iteritems():
+    for k, v in dict(*args, **kwargs).items():
       self[k] = v
 
   def UpdateMetadata(self, metadata=None):
