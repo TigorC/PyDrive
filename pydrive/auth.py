@@ -139,7 +139,7 @@ class GoogleAuth(ApiAttributeMixin, object):
 
   @CheckAuth
   def LocalWebserverAuth(self, host_name='localhost',
-                         port_numbers=[8080, 8090]):
+                         port_numbers=(8080, 8090)):
     """Authenticate and authorize from user by creating local webserver and
     retrieving authentication code.
 
