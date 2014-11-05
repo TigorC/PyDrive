@@ -1,3 +1,6 @@
+# -*- coding: utf-8 -*-
+
+
 from yaml import load
 from yaml import YAMLError
 try:

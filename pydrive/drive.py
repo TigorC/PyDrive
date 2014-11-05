@@ -1,3 +1,6 @@
+# -*- coding: utf-8 -*-
+
+
 from .apiattr import ApiAttributeMixin
 from .files import GoogleDriveFile
 from .files import GoogleDriveFileList

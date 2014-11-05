@@ -1,3 +1,6 @@
+# -*- coding: utf-8 -*-
+
+
 class ApiAttribute(object):
   """A data descriptor that sets and returns values."""
 
