@@ -159,7 +159,7 @@ class GoogleAuth(ApiAttributeMixin, object):
       port_number = port
       try:
         httpd = ClientRedirectServer((host_name, port), ClientRedirectHandler)
-      except socket.error as e:
+      except socket.error:
         pass
       else:
         success = True
