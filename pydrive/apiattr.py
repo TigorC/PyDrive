@@ -127,7 +127,7 @@ class ApiResourceList(ApiAttributeMixin, ApiResource):
     """
     return self
 
-  def next(self):
+  def __next__(self):
     """Make API call to list resources and return them.
 
     Auto updates 'pageToken' everytime it makes API call and
